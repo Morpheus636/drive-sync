@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer for rclone-bisync.service
+Requires=rclone-bisync.service
+
+[Timer]
+Unit=rclone-bisync.service
+OnCalendar=*:0/10
+
+[Install]
+WantedBy=timers.target

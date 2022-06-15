@@ -1,0 +1,10 @@
+[Unit]
+Description=Uses rclone bisync to sync files with Google Drive
+Wants=rclone-bisync.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/rclone-bisync.sh
+
+[Install]
+WantedBy=multi-user.target
