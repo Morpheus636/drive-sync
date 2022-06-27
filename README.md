@@ -2,6 +2,8 @@
 This tool installs a systemd service on a 10 minute timer for syncing files using rclone
 bisync.
 
+This tool is developed for my use but published so others can benefit. I am not responsible if it causes data loss, although I use it and it works fine for me. If you have a contribution feel free to open a Pull Request.
+
 ## Usage
 1. Install rclone
     - `curl https://rclone.org/install.sh | sudo bash`
