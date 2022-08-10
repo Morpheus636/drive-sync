@@ -2,7 +2,14 @@
 This tool installs a systemd service on a 10 minute timer for syncing files using rclone
 bisync.
 
-This tool is developed for my use but published so others can benefit. I am not responsible if it causes data loss, although I use it and it works fine for me. Pull requests will be closed without merging.
+## Features
+- Simple Install
+- Bidirectional Sync, similar to DropBox or SugarSync
+
+## Technologies
+- BASH
+- Rclone
+- Systemd
 
 ## Usage
 1. Install rclone
@@ -21,3 +28,9 @@ This tool is developed for my use but published so others can benefit. I am not 
 ### To uninstall the utility.
 1. Run `sudo ./uninstall.sh`
 
+## Contributing
+This project is unmaintained, developed for my personal use and released for the benefit of anyone interested. Issues may not be addressed and pull
+requests will likely be closed without merging.
+
+## Credits
+- None
